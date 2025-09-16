@@ -132,6 +132,20 @@
             opacity: 0.9;
         }
         
+        .last-updated {
+            font-size: 1rem;
+            font-weight: 400;
+            margin-top: 8px;
+            opacity: 0.7;
+            font-style: italic;
+        }
+        
+        /* Hide Brand Health cards temporarily */
+        .kpi-card:nth-last-child(2),
+        .kpi-card:nth-last-child(1) {
+            display: none;
+        }
+        
         .description {
             max-width: 800px;
             font-size: 1.1rem;
@@ -467,6 +481,7 @@
             </div>
             <h1>KPI Dashboard Repository</h1>
             <div class="subtitle">Abu Dhabi - Department of Culture and Tourism</div>
+            <div class="last-updated">Last updated: September 2025</div>
         </div>
     </header>
     
